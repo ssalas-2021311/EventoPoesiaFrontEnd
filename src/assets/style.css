@@ -1,20 +1,24 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('../assets/img/fondo.avif'); /* Ajusta la ruta de la imagen */
+    background-image: url('../assets/img/fondo.avif');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Opcional: Fija la imagen de fondo al desplazarse */
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
     color: white;
 }
 
-.container {
-    justify-content: center; /* Centrado horizontal */
+.Principal {
+    justify-content: center; 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.formulario {
+    margin-top: 25px;
 }
 
 .titulo {
